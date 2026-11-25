@@ -1,0 +1,33 @@
+# Sanal Ortamlar ve Paketler
+makeup_env/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Flutter & Dart Çıktıları
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+mobiluygulama/build/
+mobiluygulama/.dart_tool/
+mobiluygulama/windows/flutter/ephemeral/
+mobiluygulama/.flutter-plugins
+mobiluygulama/.flutter-plugins-dependencies
+
+# Arşiv ve Geçici Dosyalar
+*.zip
+temp_*
+results/
+
+# Güvenlik ve Dağıtım Araçları
+quick_deploy.py
+make_project_zip.py
+
+# Editör ve Yerel Yapılandırma Ayarları
+.vscode/
+.idea/
+*.swp
+*.lock
+local.properties
+**/android/local.properties
